@@ -1,14 +1,14 @@
 class Nakatoshi < Formula
   desc "Bitcoin vanity address generator"
   homepage "https://github.com/ndelvalle/nakatoshi"
-  version "0.3.0"
+  version "0.3.1"
 
   if Hardware::CPU.arm?
-    url "https://github.com/ndelvalle/nakatoshi/releases/download/v0.3.0/nakatoshi-macos-arm64.tar.gz"
-    sha256 "95e94b22cfe5ba5858b7156ce09fdf23e3d3fa313d1110c8f652c82aa2366c4b"
+    url "https://github.com/ndelvalle/nakatoshi/releases/download/v0.3.1/nakatoshi-macos-arm64.tar.gz"
+    sha256 "90620d98a4e4a99c3e9b445e35cf56f1b88e7a7d3672687635a1140418fa9b1e"
   else
-    url "https://github.com/ndelvalle/nakatoshi/releases/download/v0.3.0/nakatoshi-macos-amd64.tar.gz"
-    sha256 "adcf14dd5db0d0a86f225eef47a9e5956ba5aa08cf29bbeb398fcadaf61fe4eb"
+    url "https://github.com/ndelvalle/nakatoshi/releases/download/v0.3.1/nakatoshi-macos-amd64.tar.gz"
+    sha256 "9c6ad4a02eb9d1d6ff513f9481877970ad7ddc5d22d66bd5c10bafd4c8b69d1a"
   end
 
   def install
